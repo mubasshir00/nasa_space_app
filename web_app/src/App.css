@@ -1,0 +1,48 @@
+/* @media (min-height: 30em) {
+  main {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+}
+
+.section {
+  color: black;
+  position: relative;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+@media (min-height: 30em) {
+  .section {
+    height: 100vh;
+  }
+}
+
+@media (min-height: 30em) {
+  .section__content > * {
+    opacity: 0;
+    transform: translate3d(0, 4rem, 0);
+    transition: opacity 800ms var(--delay),
+      transform 800ms cubic-bezier(0.13, 0.07, 0.26, 0.99) var(--delay);
+  }
+}
+
+.is-visible .section__content > * {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.is-visible .section__img {
+  opacity: 0.75;
+} */
+
+.bg {
+  background-image: url('../public/moon-landing.jpg');
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

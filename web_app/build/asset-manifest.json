@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a7366f19.css",
+    "main.js": "/static/js/main.92d21702.js",
+    "static/js/787.e3d1638a.chunk.js": "/static/js/787.e3d1638a.chunk.js",
+    "static/media/moon-landing.jpg": "/static/media/moon-landing.1eb10e2a02b0ce40b964.jpg",
+    "index.html": "/index.html",
+    "main.a7366f19.css.map": "/static/css/main.a7366f19.css.map",
+    "main.92d21702.js.map": "/static/js/main.92d21702.js.map",
+    "787.e3d1638a.chunk.js.map": "/static/js/787.e3d1638a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7366f19.css",
+    "static/js/main.92d21702.js"
+  ]
+}
