@@ -85,7 +85,7 @@ const Teammember = () => {
 					</div>
 					<div className='card_body'>
 						<h2 className='card_title'>Jannatul Ferdous Mim</h2>
-						<h6 className='designation'>Business Analyst</h6>
+						<h6 className='designation'>Market & Business Analyst</h6>
 					</div>
 				</div>
 			</div>
@@ -96,7 +96,7 @@ const Teammember = () => {
 					</div>
 					<div className='card_body'>
 						<h2 className='card_title'>Mubasshir Ahmed</h2>
-						<h6 className='designation'>Software Engineer</h6>
+						<h6 className='designation'>Full Stack Web Dev</h6>
 						{/* <div className="call_btn">
               <a href="#" className="btn_icon">
                 <i className="fas fa-phone-alt" />
@@ -121,7 +121,7 @@ const Teammember = () => {
 					</div>
 					<div className='card_body'>
 						<h2 className='card_title'>Sajid Hasan Shanta</h2>
-						<h6 className='designation'>UI/UX Designer</h6>
+						<h6 className='designation'>iOS Engineer</h6>
 						{/* <div className="call_btn">
               <a href="#" className="btn_icon">
                 <i className="fas fa-phone-alt" />
