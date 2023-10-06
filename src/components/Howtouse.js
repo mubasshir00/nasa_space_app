@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Howtouse.css'
 const data = [
   {
     title: 'Get a decent hardware',
@@ -38,7 +38,7 @@ const data = [
   },
 ]
 
-const Howtouse = () => {
+const Howtouse1 = () => {
   return (
     <div className="flex items-center justify-center flex-wrap gap-8">
       {data.map(item => (
@@ -48,7 +48,7 @@ const Howtouse = () => {
             flexBasis: '400px',
           }}
         >
-          {/* <div
+          <div
             style={{
               width: '100%',
             }}
@@ -81,7 +81,7 @@ const Howtouse = () => {
                 />
               </div>
             </div>
-          </div> */}
+          </div>
           <img
             className=""
             src={item.img}
@@ -99,5 +99,47 @@ const Howtouse = () => {
     </div>
   )
 }
+
+const Howtouse = () => {
+	return (
+		<div className='flex items-center justify-center flex-wrap gap-8'>
+			<div className='roww'>
+				{data.map((item) => (
+					<div className='columnn'>
+						<div
+							className='flex flex-col items-center gap-4 bg-gray-200 p-8 h-[220px] text-center drop-shadow-md'
+							style={{
+								flexBasis: "400px",
+							}}>
+							
+							<img
+								className=''
+								src={item.img}
+								style={{
+									height: "60px",
+									width: "60px",
+								}}
+							/>
+							<div className='p-4 space-y-4'>
+								<h1 className='text-center font-bold text-black'>
+									{item.title}
+								</h1>
+								<p>{item.desc}</p>
+							</div>
+						</div>
+					</div>
+				))}
+				{/* <div className='columnn'>
+					<h2>Column 1</h2>
+					<p>Content for Column 1 goes here.</p>
+				</div>
+				<div className='columnn'>
+					<h2>Column 2</h2>
+					<p>Content for Column 2 goes here.</p>
+				</div> */}
+			</div>
+		</div>
+	);
+};
 
 export default Howtouse

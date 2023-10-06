@@ -120,7 +120,7 @@ const About = () => {
                   data-slide-to={3}
                   className="active"
                 >
-                  2022
+                  2023
                 </li>
                 <li data-target="#history-slid" data-slide-to={4}>
                   2027

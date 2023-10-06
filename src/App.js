@@ -78,6 +78,9 @@ function App() {
 					</div>
 				</section>
 
+				<div
+				style={{padding:'10px'}}></div>
+
 				<section id='threedview' class='section container mx-auto px-4'>
 					<div
 						class='section__content flex flex-col items-center justify-center gap-[50px]'
@@ -86,13 +89,15 @@ function App() {
 							className='text-[5rem] font-bold text-black'
 							style={{
 								fontFamily: "Raleway",
+								textAlign:'center',
+								
 							}}>
 							Visualize in 3D
 						</h1>
 
 						<Explore />
 					</div>
-				</section>
+				</section>x
 
 				<section
 					id='howtouse'
